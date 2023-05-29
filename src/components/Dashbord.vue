@@ -15,6 +15,8 @@
   <ModelCapitalize></ModelCapitalize>
   <!-- Btn prop类型验证 -->
   <ValidateProp btn-type="success"></ValidateProp>
+  <!-- 基本computed属性 -->
+  <BasicComputed></BasicComputed>
 
 </template>
 <script setup>
@@ -26,6 +28,7 @@ import RefFamily from "./RefFamily.vue";
 import PreventProp from "./PreventProp.vue";
 import ModelCapitalize from "./ModelCapitalize.vue";
 import ValidateProp from "./ValidateProp.vue";
+import BasicComputed from "./BasicComputed.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -35,6 +38,7 @@ defineComponent({
   RefFamily,
   PreventProp,
   ModelCapitalize,
-  ValidateProp
+  ValidateProp,
+  BasicComputed
 });
 </script>
