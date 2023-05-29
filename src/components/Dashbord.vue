@@ -19,6 +19,8 @@
   <BasicComputed></BasicComputed>
   <!-- watch 全家桶 -->
   <WatchFamily></WatchFamily>
+  <!-- shallowRef -->
+  <ShallowRefT></ShallowRefT>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -31,6 +33,7 @@ import ModelCapitalize from "./ModelCapitalize.vue";
 import ValidateProp from "./ValidateProp.vue";
 import BasicComputed from "./BasicComputed.vue";
 import WatchFamily from "./WatchFamily.vue";
+import ShallowRefT from "./ShallowRefT.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -43,5 +46,6 @@ defineComponent({
   ValidateProp,
   BasicComputed,
   WatchFamily,
+  ShallowRefT,
 });
 </script>
