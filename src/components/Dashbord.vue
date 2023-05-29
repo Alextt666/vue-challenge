@@ -5,6 +5,7 @@
   <DynamicCss></DynamicCss>
   <RefFamily></RefFamily>
   <PreventProp></PreventProp>
+  <ModelCapitalize></ModelCapitalize>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -13,6 +14,7 @@ import LifeHooks from "./LifeHooks.vue/index.vue";
 import DynamicCss from "./DynamicCss.vue";
 import RefFamily from "./RefFamily.vue";
 import PreventProp from "./PreventProp.vue";
+import ModelCapitalize from "./ModelCapitalize.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -20,6 +22,7 @@ defineComponent({
   LifeHooks,
   DynamicCss,
   RefFamily,
-  PreventProp
+  PreventProp,
+  ModelCapitalize
 });
 </script>
