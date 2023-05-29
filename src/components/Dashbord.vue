@@ -17,7 +17,8 @@
   <ValidateProp btn-type="success"></ValidateProp>
   <!-- 基本computed属性 -->
   <BasicComputed></BasicComputed>
-
+  <!-- watch 全家桶 -->
+  <WatchFamily></WatchFamily>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -29,6 +30,7 @@ import PreventProp from "./PreventProp.vue";
 import ModelCapitalize from "./ModelCapitalize.vue";
 import ValidateProp from "./ValidateProp.vue";
 import BasicComputed from "./BasicComputed.vue";
+import WatchFamily from "./WatchFamily.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -39,6 +41,7 @@ defineComponent({
   PreventProp,
   ModelCapitalize,
   ValidateProp,
-  BasicComputed
+  BasicComputed,
+  WatchFamily,
 });
 </script>
