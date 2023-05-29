@@ -4,6 +4,7 @@
   <LifeHooks></LifeHooks>
   <DynamicCss></DynamicCss>
   <RefFamily></RefFamily>
+  <PreventProp></PreventProp>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -11,6 +12,7 @@ import TeleportT from "./TeleportT.vue";
 import LifeHooks from "./LifeHooks.vue/index.vue";
 import DynamicCss from "./DynamicCss.vue";
 import RefFamily from "./RefFamily.vue";
+import PreventProp from "./PreventProp.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -18,5 +20,6 @@ defineComponent({
   LifeHooks,
   DynamicCss,
   RefFamily,
+  PreventProp
 });
 </script>
