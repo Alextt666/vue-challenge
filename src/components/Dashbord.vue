@@ -21,6 +21,14 @@
   <WatchFamily></WatchFamily>
   <!-- shallowRef -->
   <ShallowRefT></ShallowRefT>
+  <!-- provide & inject -->
+  <ProvideInject></ProvideInject>
+  <!-- v-once -->
+  <OnceT></OnceT>
+  <!-- useToggle -->
+  <useToggle></useToggle>
+  <!-- util -->
+  <UtilAsync></UtilAsync>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -34,6 +42,10 @@ import ValidateProp from "./ValidateProp.vue";
 import BasicComputed from "./BasicComputed.vue";
 import WatchFamily from "./WatchFamily.vue";
 import ShallowRefT from "./ShallowRefT.vue";
+import ProvideInject from "./ProvideInject.vue/index.vue";
+import OnceT from "./OnceT.vue";
+import useToggle from "./useToggle.vue";
+import UtilAsync from "./UtilAsync.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -47,5 +59,9 @@ defineComponent({
   BasicComputed,
   WatchFamily,
   ShallowRefT,
+  ProvideInject,
+  OnceT,
+  useToggle,
+  UtilAsync
 });
 </script>
