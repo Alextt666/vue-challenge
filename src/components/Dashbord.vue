@@ -25,10 +25,12 @@
   <ProvideInject></ProvideInject>
   <!-- v-once -->
   <OnceT></OnceT>
-  <!-- useToggle -->
+  <!-- useToggle test-->
   <useToggle></useToggle>
-  <!-- util -->
+  <!-- util test-->
   <UtilAsync></UtilAsync>
+  <!-- counter test-->
+  <CounterT></CounterT>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -46,6 +48,7 @@ import ProvideInject from "./ProvideInject.vue/index.vue";
 import OnceT from "./OnceT.vue";
 import useToggle from "./useToggle.vue";
 import UtilAsync from "./UtilAsync.vue";
+import CounterT from "./CounterT.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -62,6 +65,7 @@ defineComponent({
   ProvideInject,
   OnceT,
   useToggle,
-  UtilAsync
+  UtilAsync,
+  CounterT
 });
 </script>
