@@ -31,6 +31,12 @@
   <UtilAsync></UtilAsync>
   <!-- counter test-->
   <CounterT></CounterT>
+  <!-- 本地存储  -->
+  <!-- <UseLocal></UseLocal> -->
+  <!-- 自定义切换聚焦指令 -->
+  <OwnDirective></OwnDirective>
+  <!-- 自定义防抖指令 -->
+  <VDebounceClick></VDebounceClick>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -49,6 +55,9 @@ import OnceT from "./OnceT.vue";
 import useToggle from "./useToggle.vue";
 import UtilAsync from "./UtilAsync.vue";
 import CounterT from "./CounterT.vue";
+// import UseLocal from "./UseLocalT.vue";
+import OwnDirective from "./OwnDirective.vue";
+import VDebounceClick from "./VDebounceClick.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -66,6 +75,9 @@ defineComponent({
   OnceT,
   useToggle,
   UtilAsync,
-  CounterT
+  CounterT,
+  OwnDirective,
+  //   UseLocal,
+  VDebounceClick,
 });
 </script>
