@@ -41,6 +41,16 @@
   <FunctionalComp></FunctionalComp>
   <!-- 渲染函数 -->
   <RenderComp></RenderComp>
+  <!-- 按键修饰符 -->
+  <KeyModifiers></KeyModifiers>
+  <!-- 可组合函数 -->
+  <UseMouse></UseMouse>
+  <!-- 添加全局css -->
+  <GlobalCss></GlobalCss>
+  <!-- 原始值API  -->
+  <RawFamily></RawFamily>
+  <!-- EffectScope -->
+  <EffectScopeT></EffectScopeT>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -64,6 +74,11 @@ import OwnDirective from "./OwnDirective.vue";
 import VDebounceClick from "./VDebounceClick.vue";
 import FunctionalComp from "./FunctionalComp.vue";
 import RenderComp from "./Renderer/index.vue";
+import KeyModifiers from "./KeyModifiers.vue";
+import UseMouse from "./UseMouse.vue";
+import GlobalCss from "./GlobalCss.vue";
+import RawFamily from "./RawFamily.vue";
+import EffectScopeT from "./EffectScopeT.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -87,5 +102,10 @@ defineComponent({
   VDebounceClick,
   FunctionalComp,
   RenderComp,
+  KeyModifiers,
+  UseMouse,
+  GlobalCss,
+  RawFamily,
+  EffectScopeT,
 });
 </script>
