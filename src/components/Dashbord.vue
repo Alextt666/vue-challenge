@@ -37,6 +37,10 @@
   <OwnDirective></OwnDirective>
   <!-- 自定义防抖指令 -->
   <VDebounceClick></VDebounceClick>
+  <!-- 函数式组件 -->
+  <FunctionalComp></FunctionalComp>
+  <!-- 渲染函数 -->
+  <RenderComp></RenderComp>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -58,6 +62,8 @@ import CounterT from "./CounterT.vue";
 // import UseLocal from "./UseLocalT.vue";
 import OwnDirective from "./OwnDirective.vue";
 import VDebounceClick from "./VDebounceClick.vue";
+import FunctionalComp from "./FunctionalComp.vue";
+import RenderComp from "./Renderer/index.vue";
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -79,5 +85,7 @@ defineComponent({
   OwnDirective,
   //   UseLocal,
   VDebounceClick,
+  FunctionalComp,
+  RenderComp,
 });
 </script>
