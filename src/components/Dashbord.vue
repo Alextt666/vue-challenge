@@ -53,6 +53,8 @@
   <EffectScopeT></EffectScopeT>
   <!-- 激活的样式-指令 -->
   <ActivedStyle></ActivedStyle>
+  <!-- 自定义双向绑定 -->
+  <VOhModel></VOhModel>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -82,6 +84,7 @@ import GlobalCss from "./GlobalCss.vue";
 import RawFamily from "./RawFamily.vue";
 import EffectScopeT from "./EffectScopeT.vue";
 import ActivedStyle from './ActivedStyle.vue';
+import VOhModel from './VOhModel.vue';
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -110,6 +113,7 @@ defineComponent({
   GlobalCss,
   RawFamily,
   EffectScopeT,
-  ActivedStyle
+  ActivedStyle,
+  VOhModel
 });
 </script>
