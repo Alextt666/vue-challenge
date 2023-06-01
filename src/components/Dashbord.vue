@@ -51,6 +51,8 @@
   <RawFamily></RawFamily>
   <!-- EffectScope -->
   <EffectScopeT></EffectScopeT>
+  <!-- 激活的样式-指令 -->
+  <ActivedStyle></ActivedStyle>
 </template>
 <script setup>
 import NextTickT from "./NextTickT.vue";
@@ -79,6 +81,7 @@ import UseMouse from "./UseMouse.vue";
 import GlobalCss from "./GlobalCss.vue";
 import RawFamily from "./RawFamily.vue";
 import EffectScopeT from "./EffectScopeT.vue";
+import ActivedStyle from './ActivedStyle.vue';
 import { defineComponent } from "vue";
 defineComponent({
   NextTickT,
@@ -107,5 +110,6 @@ defineComponent({
   GlobalCss,
   RawFamily,
   EffectScopeT,
+  ActivedStyle
 });
 </script>
